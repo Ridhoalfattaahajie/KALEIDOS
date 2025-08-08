@@ -1,0 +1,27 @@
+## 🔬 How It Works
+
+**KALEIDOS IMMUNOCORE** is designed to simulate a cognitive immune system for smart contract security. Rather than relying on static rules or predefined signatures, it adapts to detect vulnerabilities through interpretive probabilistic modeling.
+
+The framework operates through the following conceptual phases:
+
+### 1. 🧲 **Sensing Phase – Risk Signal Intake**  
+KALEIDOS starts by extracting probabilistic signals from smart contracts. These signals aren’t limited to code structure — they include contextual, behavioral, and flow-based patterns, much like how an immune system picks up on environmental cues.
+
+### 2. 🧠 **Interpretive Phase – Probabilistic Reasoning Engine**  
+In this phase, a specialized engine inspired by probabilistic interpretations of EPR logic is used to evaluate risk. Instead of making yes/no decisions, KALEIDOS identifies **degrees of risk** across potentially hidden variables. It infers which segments of code exhibit latent vulnerabilities — even if they don't match known exploit patterns.
+
+### 3. 🧬 **Fingerprinting & Clustering – Threat Profiling**  
+Once signals are interpreted, KALEIDOS generates what we call a **xi-fingerprint** — a compact, interpretable representation of the anomaly space. This fingerprint is used to cluster findings, estimate severity, and visualize correlations between potential threats.
+
+### 4. 🧪 **Response Phase – Diagnostic and Reporting**  
+The framework produces a detailed, human-readable report. This includes:
+- Ranked vulnerability findings
+- Severity estimation (aligned with CVSS logic)
+- Probabilistic confidence levels
+- Minimal PoC suggestions (when safe and feasible)  
+All findings are derived without executing or rewriting the smart contract.
+
+### 5. 🔄 **Adaptive Calibration**  
+Unlike traditional tools, KALEIDOS doesn’t assume the same detection strategy fits all cases. It continuously adapts its internal thresholds based on entropy levels from prior audits. This makes it especially powerful for unseen protocols and edge-case behaviors.
+
+> KALEIDOS doesn’t aim to mimic other scanners. It rethinks how vulnerabilities are *understood* — treating them as probabilistic interpretations of software entropy and structural deviation, not just violations of known rules.
